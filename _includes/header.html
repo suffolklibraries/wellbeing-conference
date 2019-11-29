@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="{{ site.lang }}" class="f4-ns">
+
+    <head>
+
+        {% if page.is_home %}
+        <title>{{ site.title }}</title>
+        <meta name="description" content="{{ site.description }}">
+        {% else %}
+        <title>{{ page.title }} &#8211; {{ site.title }}</title>
+        {% endif %}
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        {% if site.css == 'inline' %}
+        <style>
+            {% capture inline-styles %}
+            {% include style.scss %}
+            {% endcapture %}
+            {{ inline-styles | scssify }}
+        </style>
+        {% else %}
+        <link href="/css/style.css" rel="stylesheet">
+        {% endif %}
+
+    </head>
+
+    <body class="__sans-serif ma0 pa0 bg-near-white dark-gray lh-copy">
+
+        <p class="clip"><a href="#content">Skip to content</a></p>
+
+        <header class="mb3">
+
+          <div class="bg-dark-gray white ph2 ph4-ns pv2 bb b--light-gray flex">
+
+            <div class="b ttl small-caps tracked w-20"><a href="#" class="f6 no-underline dib gold hover-white pv2">Branded</a></div>
+
+            <div class="w-80 tr pt1">
+
+              <noscript><a href="https://www.eventbrite.co.uk/e/wellbeing-in-the-workplace-tickets-83636875145" rel="noopener noreferrer" class="light-gray hover-white">Buy ticket on Eventbrite website</a></noscript>
+              <!-- You can customize this button any way you like -->
+              <button id="eventbrite-widget-modal-trigger-83636875145" type="button" class="f6 pointer pa2 bg-blue hover-bg-dark-blue white br2 ba b--silver shadow-4 b">Buy tickets</button>
+
+              <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+              <script>
+                  var exampleCallback = function() {
+                      console.log('Order complete!');
+                  };
+
+                  window.EBWidgets.createWidget({
+                      widgetType: 'checkout',
+                      eventId: '83636875145',
+                      modal: true,
+                      modalTriggerElementId: 'eventbrite-widget-modal-trigger-83636875145',
+                      onOrderComplete: exampleCallback
+                  });
+              </script>
+
+            </div>
+
+          </div>
+
+          <nav class="ph2 ph4-ns pv2 bb b--light-gray bg-white">
+
+            <ul class="ma0 pa0 list f6">
+
+              {% assign items = site.pages | sort: "nav-order" %}
+
+              {% for item in items %}
+
+                {% if item.nav-order %}
+
+                <li class="dib mr2 mr4-ns mv1 mv0-ns"><a href="{{ item.url }}" class="no-underline{% if page.title == item.title %} dark-blue bb bw2{% else %} blue hover-dark-blue{% endif %}">{{ item.title }}</a></li>
+
+                {% endif %}
+
+              {% endfor %}
+
+            </ul>
+
+          </nav>
+
+        </div>
+
+      </header>
+
+      <main id="content" class="__wrapper center bg-white ba b--light-gray mb3">
+
+        <article>
+
+          <header class="pv3 pv4-ns ph2 ph4-ns bb b--light-gray __hero">
+
+            <div class="mb2 mb4-ns ttu f6"><span class="pa2 o-80 __box-decoration-break-clone bg-black white dib ">30 <br>Mar</span></div>
+
+            <{% if page.is_home %}h1{% else %}div{% endif %} class="b mv3 mv4-ns f2 lh-title w-two-thirds-ns w-50-l"><span class="pa2 o-80 __box-decoration-break-clone bg-black white dib">Proactive Workplace Mental Health Summit 2020</span></{% if page.is_home %}h1{% else %}div{% endif %}>
+
+            <p><span class="pa2 o-80 __box-decoration-break-clone bg-black white dib ">University of Suffolk, Waterfront Place, IP1 3DE</span></p>
+
+          </header>
+
+          <div class="pv3 pv4-ns ph2 ph4-ns bb b--light-gray">
+
+            {% unless page.full-width %}
+
+            <div class="flex-ns">
+
+              <div class="w-two-thirds-ns pr2-ns pr4-l">
+
+            {% endunless %}
+
+                <{% if page.is_home %}h2{% else %}h1{% endif %} class="f3 lh-title mb2">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</{% if page.is_home %}h1{% else %}h2{% endif %}>

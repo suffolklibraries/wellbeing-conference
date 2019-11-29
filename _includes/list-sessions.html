@@ -1,0 +1,21 @@
+{% assign sessions = site.sessions %}
+
+{% for session in sessions %}
+
+  <article class="pb3">
+
+    <header>
+
+      <h3 class="lh-title f4 mb1">{{ session.name }}</h3>
+
+      {% if session.speaker %}<p class="f6 mid-gray ma0">{{ session.speaker }}</p>{% endif %}
+
+      {% if session.start-time %}<p class="f6 mid-gray ma0">{{ session.start-time }}</p>{% endif %}
+
+    </header>
+
+      {{ session.content }}
+
+  </article>
+
+{% endfor %}
