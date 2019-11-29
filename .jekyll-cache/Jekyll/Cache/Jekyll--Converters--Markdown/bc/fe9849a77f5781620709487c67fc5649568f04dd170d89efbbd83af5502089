@@ -1,0 +1,81 @@
+I"!<p>This is markdown content for the speakers page.</p>
+
+<article class="pb3">
+
+    <header>
+
+      <div class="flex flex-row-reverse items-center">
+
+        <div class="w-80 pl2 pl3-ns">
+
+          <h3 class="lh-title f4 mb1">Leon Paternoster</h3>
+
+          <p class="f6 mid-gray ma0">Head of digital and marketing <br />Suffolk Libraries</p>
+
+          <p class="f6 mid-gray ma0 i">Digital work in the workplace</p>
+
+        </div>
+
+        <div class="w-20 pr2 pr3-ns">
+
+          <img class="db ma0 pa0 br-100" src="/assets/leon-paternoster.jpg" alt="Leon Paternoster" />
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <details>
+
+      <summary class="f6 mt3 pointer">More about Leon Paternoster</summary>
+
+      <p>Bacon ipsum dolor amet andouille beef drumstick cow fatback picanha. Tail tri-tip kielbasa short loin ribeye turkey pork loin. Pork beef ham hock, short loin fatback spare ribs tail capicola rump. Capicola ball tip short loin doner, strip steak flank venison porchetta tongue. Tail leberkas beef biltong prosciutto shankle, short loin tongue meatball. Short loin pig corned beef, kielbasa shoulder t-bone strip steak pork chop. Boudin salami filet mignon capicola jowl pancetta ham hock ground round buffalo cow ball tip.</p>
+
+<p>Frankfurter ground round turducken chicken buffalo picanha burgdoggen spare ribs chuck tongue strip steak alcatra jerky. Turducken pig kevin rump frankfurter prosciutto ham. Doner tail beef meatloaf shankle tenderloin rump shank bacon short loin burgdoggen jowl chuck. Ground round chicken swine pancetta. Brisket pig swine pork belly tongue, jerky sirloin fatback leberkas flank chislic pork prosciutto alcatra sausage.</p>
+
+
+    </details>
+
+  </article>
+
+<article class="pb3">
+
+    <header>
+
+      <div class="flex flex-row-reverse items-center">
+
+        <div class="w-80 pl2 pl3-ns">
+
+          <h3 class="lh-title f4 mb1">Daniel Harvey</h3>
+
+          <p class="f6 mid-gray ma0">Head of community development <br />Suffolk Libraries</p>
+
+          <p class="f6 mid-gray ma0 i">Community development in the Workplace</p>
+
+        </div>
+
+        <div class="w-20 pr2 pr3-ns">
+
+          <img class="db ma0 pa0 br-100" src="/assets/daniel-harvey.jpg" alt="Daniel Harvey" />
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <details>
+
+      <summary class="f6 mt3 pointer">More about Daniel Harvey</summary>
+
+      <p>Bacon ipsum dolor amet andouille beef drumstick cow fatback picanha. Tail tri-tip kielbasa short loin ribeye turkey pork loin. Pork beef ham hock, short loin fatback spare ribs tail capicola rump. Capicola ball tip short loin doner, strip steak flank venison porchetta tongue. Tail leberkas beef biltong prosciutto shankle, short loin tongue meatball. Short loin pig corned beef, kielbasa shoulder t-bone strip steak pork chop. Boudin salami filet mignon capicola jowl pancetta ham hock ground round buffalo cow ball tip.</p>
+
+<p>Frankfurter ground round turducken chicken buffalo picanha burgdoggen spare ribs chuck tongue strip steak alcatra jerky. Turducken pig kevin rump frankfurter prosciutto ham. Doner tail beef meatloaf shankle tenderloin rump shank bacon short loin burgdoggen jowl chuck. Ground round chicken swine pancetta. Brisket pig swine pork belly tongue, jerky sirloin fatback leberkas flank chislic pork prosciutto alcatra sausage.</p>
+
+
+    </details>
+
+  </article>
+
+:ET
