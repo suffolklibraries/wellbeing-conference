@@ -4,6 +4,22 @@
 
     </footer>
 
+    <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+    <script>
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+
+        window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '83636875145',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-83636875145',
+            onOrderComplete: exampleCallback
+        });
+    </script>
+
   </body>
 
 </html>

@@ -4,16 +4,18 @@
 
     <head>
 
-        
-        <title>Pricing &#8211; Hive Conference</title>
-        
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
+      
+      <title>Pricing &#8211; Hive Conference</title>
+      
 
-        
-        <link href="/css/style.css" rel="stylesheet">
-        
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+
+      
+      <link href="/css/style.css" rel="stylesheet">
+      
 
     </head>
 
@@ -30,24 +32,8 @@
             <div class="w-80 tr pt1">
 
               <noscript><a href="https://www.eventbrite.co.uk/e/wellbeing-in-the-workplace-tickets-83636875145" rel="noopener noreferrer" class="light-gray hover-white">Buy ticket on Eventbrite website</a></noscript>
-              <!-- You can customize this button any way you like -->
+
               <button id="eventbrite-widget-modal-trigger-83636875145" type="button" class="f6 pointer pa2 bg-blue hover-bg-dark-blue white br2 ba b--silver shadow-4 b">Buy tickets</button>
-
-              <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
-
-              <script>
-                  var exampleCallback = function() {
-                      console.log('Order complete!');
-                  };
-
-                  window.EBWidgets.createWidget({
-                      widgetType: 'checkout',
-                      eventId: '83636875145',
-                      modal: true,
-                      modalTriggerElementId: 'eventbrite-widget-modal-trigger-83636875145',
-                      onOrderComplete: exampleCallback
-                  });
-              </script>
 
             </div>
 
@@ -129,7 +115,7 @@
 
       </header>
 
-      <main id="content" class="__wrapper center bg-white ba b--light-gray mb3">
+      <main id="content" class="__wrapper center bg-white mb3 min-vh-100">
 
         <article>
 
@@ -143,7 +129,7 @@
 
           </header>
 
-          <div class="pv3 pv4-ns ph2 ph4-ns bb b--light-gray">
+          <div class="pv3 pv4-ns ph2 ph4-ns">
 
             
 
@@ -169,6 +155,22 @@
       <p class="f6 ma0">Hive is a new network designed to help businesses across East Anglia grow and prosper. <a href="#" class="blue hover-dark-blue">Find out about Hive &rarr;</a></p>
 
     </footer>
+
+    <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+    <script>
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+
+        window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '83636875145',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-83636875145',
+            onOrderComplete: exampleCallback
+        });
+    </script>
 
   </body>
 
