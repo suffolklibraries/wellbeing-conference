@@ -33,7 +33,7 @@
 
       <p class="clip"><a href="#content">Skip to content</a></p>
 
-      <header class="mb3">
+      <header class="mb3 __no-print">
 
         <div class="bg-dark-gray white ph2 ph4-ns pv2 bb b--light-gray flex">
 
@@ -75,7 +75,7 @@
 
         <article>
 
-          <header class="pv3 pv4-ns ph2 ph4-ns bb b--light-gray __hero">
+          <header class="pv3 pv4-ns ph2 ph4-ns bb b--light-gray __hero __no-print">
 
             <div class="mb2 mb4-ns ttu f6"><span class="pa2 o-80 __box-decoration-break-clone bg-black white dib ">30 <br>Mar</span></div>
 
@@ -85,7 +85,7 @@
 
           </header>
 
-          <div class="pv3 pv4-ns ph2 ph4-ns">
+          <div class="pv3 pv4-ns ph2 ph4-ns{% if page.link-colour %} __link{% endif %}{% if page.underline %} __underline{%endif %}">
 
             {% unless page.full-width %}
 

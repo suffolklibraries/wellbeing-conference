@@ -50,6 +50,33 @@
   box-decoration-break:clone;
 }
 
+a.__underline,
+.__underline a {
+  text-decoration: underline;
+  text-decoration: solid underline $link 2px;
+}
+
+a.__link:link,
+.__link a:link {
+  color: $link;
+}
+
+a.__link:hover,
+.__link a:hover,
+a.__link:active,
+.__link a:active,
+a.__link:focus,
+.__link a:focus {
+  color: $hover;
+}
+
+a.__link:visited,
+.__link a:visited {
+  color: $visited;
+}
+
+
+
 
 // Some empty media queries
 // Use these if you want to make responsive custom classes
@@ -65,3 +92,41 @@
 
 
 } // End the enclosing screen/projection media query
+
+
+// Print styles
+
+@media print {
+
+  html {
+    font-size: 112.5%;
+  }
+
+
+  .__no-print {
+    display: none;
+  }
+
+  * {
+    font-family: $c-sans-serif;
+  }
+
+  h1 + *,
+  h2 + *,
+  h3 + *,
+  h4 + *,
+  h5 + *,
+  h6 + * {
+    margin-top: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.5rem;
+  }
+
+}
