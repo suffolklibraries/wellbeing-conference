@@ -47,7 +47,8 @@
 }
 
 .__box-decoration-break-clone {
-  box-decoration-break:clone;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 a.__underline,
@@ -73,6 +74,30 @@ a.__link:focus,
 a.__link:visited,
 .__link a:visited {
   color: $visited;
+}
+
+.__prose h1 + *,
+.__prose h2 + *,
+.__prose h3 + *,
+.__prose h4 + *,
+.__prose h5 + *,
+.__prose h6 + * {
+  margin-top: 0;
+}
+
+.__prose h1,
+.__prose h2,
+.__prose h3,
+.__prose h4,
+.__prose h5,
+.__prose h6 {
+  margin-top: 1.5rem;
+  line-height: 1.25;
+}
+
+.__prose h1,
+.__prose h2 {
+  font-size: 1.25rem;
 }
 
 

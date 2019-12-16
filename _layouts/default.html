@@ -1,6 +1,10 @@
 {% include header.html %}
 
-  {{ content}}
+  {% if page.prose %}<div class="__prose">{% endif %}
+
+    {{ content}}
+
+  {% if page.prose %}</div>{% endif %}
 
 {% include sidebar.html %}
 
