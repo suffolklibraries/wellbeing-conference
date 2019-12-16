@@ -1,8 +1,15 @@
 ---
-name: "Keynote: Digital work in the workplace"
-speaker: Leon Paternoster, head of digital and marketing, Suffolk Libraries
+name: "Keynote"
+summary: "Proactive mental health and wellbeing trends: Making better workforce decisions &amp; interventions – where to next? 2020 &amp; beyond."
+speaker: TBC
 start-time: "09:10"
-order: 1
 ---
 
-Bacon ipsum dolor amet andouille beef drumstick cow fatback picanha. Tail tri-tip kielbasa short loin ribeye turkey pork loin. Pork beef ham hock, short loin fatback spare ribs tail capicola rump. Capicola ball tip short loin doner, strip steak flank venison porchetta tongue. Tail leberkas beef biltong prosciutto shankle, short loin tongue meatball. Short loin pig corned beef, kielbasa shoulder t-bone strip steak pork chop. Boudin salami filet mignon capicola jowl pancetta ham hock ground round buffalo cow ball tip.
+Putting your employees’ mental health at the centre of your business can transform your culture and achieve that elusive goal of becoming a truly empowered company of our times.
+
+Mental health is undergoing a seismic shift. Discover more about the explosive growth in supporting mental health and prevention psychological harm.
+
+- What is the cost of poor mental health and stress to employers?
+- ROI to employers from timely mental health interventions in the workplace
+- What can we learn from best practice examples in terms of good practice?
+- Mental health risk analysis
