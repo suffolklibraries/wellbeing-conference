@@ -8,11 +8,11 @@
 
       <h3 class="lh-title f4 mb1">{{ session.name }}</h3>
 
-      {% if session.summary %}<p class="b mid-gray ma0">{{ session.summary }}</p>{% endif %}
-
       {% if session.speaker %}<p class="f6 mid-gray ma0">{{ session.speaker }}</p>{% endif %}
 
       {% if session.start-time %}<p class="f6 mid-gray ma0">{{ session.start-time }}</p>{% endif %}
+
+      {% if session.summary %}<p class="i mid-gray ma0">{{ session.summary }}</p>{% endif %}
 
     </header>
 
