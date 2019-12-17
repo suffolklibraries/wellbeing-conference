@@ -52,7 +52,8 @@
 }
 
 a.__underline,
-.__underline a {
+.__underline a,
+summary.__underline {
   text-decoration: underline;
   text-decoration: solid underline $link 2px;
 }

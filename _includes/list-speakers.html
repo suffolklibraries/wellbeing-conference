@@ -28,13 +28,17 @@
 
     </header>
 
+    {% unless speaker.content.size == 1 %}
+
     <details>
 
-      <summary class="f6 mt3 pointer">More about {{ speaker.name }}</summary>
+      <summary class="pointer mt1 dark-blue __underline">More about {{ speaker.name }}</summary>
 
       {{ speaker.content }}
 
     </details>
+
+    {% endunless %}
 
   </article>
 
