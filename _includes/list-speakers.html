@@ -8,21 +8,25 @@
 
       <div class="flex flex-row-reverse items-center">
 
-        <div class="w-80 pl2 pl3-ns">
+        <div class="{% if speaker.img %}w-80 pl2 pl3-ns{% else %}w-100{% endif %}">
 
           <h3 class="lh-title f4 mb1">{{ speaker.name }}</h3>
 
           <p class="f6 mid-gray ma0">{{ speaker.job-title }} <br>{{ speaker.employer }}</p>
 
-          <p class="f6 mid-gray ma0 i">{{ speaker.talk }}</p>
+          {% if speaker.talk %}<p class="f6 mid-gray ma0 i">{{ speaker.talk }}</p>{% endif %}
 
         </div>
+
+        {% if speaker.img %}
 
         <div class="w-20 pr2 pr3-ns">
 
           <img class="db ma0 pa0 br-100" src="/assets/{{ speaker.img }}" alt="{{ speaker.name }}">
 
         </div>
+
+        {% endif %}
 
       </div>
 
