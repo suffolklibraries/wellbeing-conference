@@ -18,13 +18,13 @@
 
     {% unless session.content.size == 1 %}
 
-    <details>
+      <button class="__toggler pointer pa0 bn mt1 bg-white dark-blue __underline">More about this session</button>
 
-      <summary class="pointer mt1 dark-blue __underline">More about this session</summary>
+      <div class="clip">
 
-      {{ session.content }}
+        {{ session.content }}
 
-    </details>
+      </div>
 
     {% endunless %}
 
