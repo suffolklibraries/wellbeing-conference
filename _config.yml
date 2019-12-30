@@ -65,6 +65,7 @@ defaults:
 collections:
     - speakers
     - sessions
+    - tickets
 
 
 # Exclude from processing.
