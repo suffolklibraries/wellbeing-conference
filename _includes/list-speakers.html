@@ -2,15 +2,15 @@
 
 {% for speaker in speakers %}
 
-  <article class="pb3">
+  <article class="pt3 pb4">
 
     <header>
 
       <div class="flex flex-row-reverse items-center">
 
-        <div class="{% if speaker.img %}w-80 pl2 pl3-ns{% else %}w-100{% endif %}">
+        <div class="{% if speaker.img %}w-80 pl2{% else %}w-100{% endif %}">
 
-          <h3 class="lh-title f4 mb1">{{ speaker.name }}</h3>
+          <h3 class="lh-title f4 mt0 mb1">{{ speaker.name }}</h3>
 
           <p class="f6 mid-gray ma0">{{ speaker.job-title }} <br>{{ speaker.employer }}</p>
 
