@@ -64,6 +64,11 @@ a.__link:link,
   color: $link;
 }
 
+a.__link:visited,
+.__link a:visited {
+  color: $visited;
+}
+
 a.__link:hover,
 .__link a:hover,
 a.__link:active,
@@ -71,11 +76,6 @@ a.__link:active,
 a.__link:focus,
 .__link a:focus {
   color: $hover;
-}
-
-a.__link:visited,
-.__link a:visited {
-  color: $visited;
 }
 
 .__prose h1 + *,
