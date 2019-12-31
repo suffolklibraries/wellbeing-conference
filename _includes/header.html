@@ -51,7 +51,7 @@
 
         <nav class="ph2 ph4-ns pv2 bb b--light-gray bg-white">
 
-          <ul class="ma0 pa0 list f7 f6-l">
+          <ul class="flex flex-none-l flex-wrap ma0 pa0 list f6">
 
             {% assign items = site.pages | sort: "nav-order" %}
 
@@ -59,7 +59,7 @@
 
               {% if item.nav-order %}
 
-              <li class="dib mr2 mr4-ns mv1 mv0-ns"><a href="{{ item.url }}" class="no-underline{% if page.title == item.title %} dark-blue bb bw2{% else %} blue hover-dark-blue{% endif %}">{{ item.title }}</a></li>
+              <li class="w-third dib-ns w-auto-l mr4-l pv1 pv0-l"><a href="{{ item.url }}" class="no-underline{% if page.title == item.title %} dark-blue bb bw2{% else %} blue hover-dark-blue{% endif %}">{{ item.title }}</a></li>
 
               {% endif %}
 
