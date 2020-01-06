@@ -78,6 +78,16 @@ a.__link:focus,
   color: $hover;
 }
 
+.__prose h1,
+.__prose h2,
+.__prose h3,
+.__prose h4,
+.__prose h5,
+.__prose h6 {
+  margin-top: 2rem;
+  line-height: 1.25;
+}
+
 .__prose h1 + *,
 .__prose h2 + *,
 .__prose h3 + *,
@@ -87,19 +97,16 @@ a.__link:focus,
   margin-top: 0;
 }
 
-.__prose h1,
-.__prose h2,
-.__prose h3,
-.__prose h4,
-.__prose h5,
-.__prose h6 {
-  margin-top: 1.5rem;
-  line-height: 1.25;
+.__prose h1 {
+  font-size: 1.5rem;
 }
 
-.__prose h1,
 .__prose h2 {
   font-size: 1.25rem;
+}
+
+.__prose h3 {
+  font-size: 1rem;
 }
 
 .__lh-loose {
