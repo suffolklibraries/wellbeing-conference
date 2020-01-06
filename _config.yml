@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hive Conference"
-description: "A site description"
+title: "Proactive Workplace Mental Health Summit 2020"
+description: "A one day summit at the University of Suffolk Ipswich explaining how a positive approach to mental health culture change results in a happier, more productive workforce."
 lang: "en" # or fr, de, es etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
