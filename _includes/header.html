@@ -31,7 +31,7 @@
 
       <p class="clip"><a href="#content">Skip to content</a></p>
 
-      <header class="mb3 __no-print">
+      <header class="__sticky __no-print">
 
         <div class="bg-dark-gray white ph2 ph4-ns pv2 bb b--light-gray flex">
 
@@ -47,27 +47,27 @@
 
         </div>
 
-        <nav class="ph2 ph4-ns pv2 bb b--light-gray bg-white">
-
-          <ul class="flex flex-none-l flex-wrap ma0 pa0 list f6">
-
-            {% assign items = site.pages | sort: "nav-order" %}
-
-            {% for item in items %}
-
-              {% if item.nav-order %}
-
-              <li class="w-third dib-ns w-auto-l mr4-l pv1 pv0-l"><a href="{{ item.url }}" class="no-underline{% if page.title == item.title %} dark-blue bb bw2{% else %} blue hover-dark-blue{% endif %}">{{ item.title }}</a></li>
-
-              {% endif %}
-
-            {% endfor %}
-
-          </ul>
-
-        </nav>
-
       </header>
+
+      <nav class="mb3 ph2 ph4-ns pv2 bb b--light-gray bg-white">
+
+        <ul class="flex flex-none-l flex-wrap ma0 pa0 list f6">
+
+          {% assign items = site.pages | sort: "nav-order" %}
+
+          {% for item in items %}
+
+            {% if item.nav-order %}
+
+            <li class="w-third dib-ns w-auto-l mr4-l pv1 pv0-l"><a href="{{ item.url }}" class="no-underline{% if page.title == item.title %} dark-blue bb bw2{% else %} blue hover-dark-blue{% endif %}">{{ item.title }}</a></li>
+
+            {% endif %}
+
+          {% endfor %}
+
+        </ul>
+
+      </nav>
 
       <main id="content" class="__wrapper center bg-white mb3 min-vh-100">
 
