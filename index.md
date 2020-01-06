@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-display-title: "A positive approach to mental health culture"
+display-title: Proactive Workplace Mental Health Summit 2020
 nav-order: 1
 map: true
 is_home: true
