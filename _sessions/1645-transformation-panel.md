@@ -1,7 +1,7 @@
 ---
 name: "Mental health policy transformation panel"
 summary: "How mental health is empowering the role, reach and influence of HR"
-speaker: TBC
+speaker: Jason Gowlett, Director of HR Operations, Direct Line Group
 start-time: "16:45"
 ---
 

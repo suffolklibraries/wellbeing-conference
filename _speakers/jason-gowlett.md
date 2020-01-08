@@ -4,6 +4,7 @@ job-title: Director of HR Operations
 employer: Direct Line Group
 order: 2
 img: jason-gowlett.jpg
+talk: Mental health policy transformation panel
 ---
 
 Jason Gowlett is Director HR Operations at Direct Line Group and is responsible for delivery of all HR processes, including recruitment, learning, payroll and HR Shared Services.
