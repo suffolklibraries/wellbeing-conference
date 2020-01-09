@@ -9,6 +9,6 @@ prose: true
 ---
 
 - Call: **01473 351249**
-- Email: **help@suffolklibraries.co.uk**
+- Email: **help@hivesuffolk.co.uk**
 
 Mon-Fri 9-5, answerphone for out of office calls.

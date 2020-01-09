@@ -5,7 +5,7 @@ nav-order: 6
 prose: true
 ---
 
-## Headline sponsor: £2,500
+<h2>Headline sponsor</h2>
 
 ### Highlights
 
@@ -36,7 +36,7 @@ prose: true
 - 4 full access delegate passes
 - Additional VIP invitations for guests at discounted rate
 
-## Gold Sponsor: £2,000
+## Gold Sponsor
 
 ### Highlights
 
@@ -65,7 +65,7 @@ prose: true
 - 4 full access delegate passes
 - Additional VIP invitations for guests at discounted rate
 
-## Exhibitor & Panel Speaker: £1,250
+## Exhibitor &amp; Panel Speaker
 
 ### Highlights
 
@@ -92,7 +92,7 @@ prose: true
 - 3 full access delegate passes
 - Additional VIP invitations for guests at discounted rate
 
-## Exhibitor £1,000
+## Exhibitor
 
 ### Highlights
 
