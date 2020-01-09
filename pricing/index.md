@@ -9,7 +9,7 @@ full-width: true
 
 <div class="__prose">
 
-  <h2>Charity, not-for-profit or want to book more than 10 tickets?</h2>
+  <h2>Charity, not-for-profit or want to book 3 or more tickets?</h2>
 
   <p class="measure-wide">Call or email our helpline:</p>
 
