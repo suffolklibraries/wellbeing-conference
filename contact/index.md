@@ -8,7 +8,7 @@ underline: true
 prose: true
 ---
 
-- Call: **01473 351249**
+- Call: **01473 351249** (service provided by Suffolk Libraries customer service team)
 - Email: **help@hivesuffolk.co.uk**
 
-Mon-Fri 9-5, answerphone for out of office calls.
+Mon-Fri 9-5, answerphone for out of office hours calls.
