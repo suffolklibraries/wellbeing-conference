@@ -1,10 +1,18 @@
 {% include header.html %}
 
-  <div class="{% if page.prose %}__prose {% endif %}{% if page.links %}__link {% endif %}{% if page.underlines %}__underline {% endif %}">
+{% if page.full-width %}
 
-    {{ content}}
+<p class="pt1 mb1 f6">Main event partner</p>
 
-  </div>
+<a href="https://www.suffolkmind.org.uk/"><img class="db mb4 mw-100" alt="Mind Suffolk" src="/assets/sm-logo.png"></a>
+
+{% endif %}
+
+<div class="{% if page.prose %}__prose {% endif %}{% if page.links %}__link {% endif %}{% if page.underlines %}__underline {% endif %}">
+
+  {{ content}}
+
+</div>
 
 {% include sidebar.html %}
 

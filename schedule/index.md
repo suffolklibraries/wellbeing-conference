@@ -6,6 +6,6 @@ jquery: true
 toggle: true
 ---
 
-Subject to change.
-
 {% include list-sessions.html %}
+
+<p><small>All sessions subject to change.</small></p>
