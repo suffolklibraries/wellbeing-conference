@@ -6,6 +6,7 @@ link-colour: true
 underline: true
 prose: true
 hide: true
+sitemap: false
 ---
 
 Thanks for signing up for the newsletter.
