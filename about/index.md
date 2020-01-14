@@ -54,7 +54,7 @@ The resource pack covers a broad range of areas including:
 
 ## About Hive
 
-HIVE is a new network designed set up by [Suffolk Libraries](https://www.suffolklibraries.co.uk) to help businesses across East Anglia grow and prosper. From start-ups to scale ups, we’re looking to bring together experienced business support organisations and inspiring experts to drive success in your business. Our aim is to provide:
+HIVE is a new network set up by [Suffolk Libraries](https://www.suffolklibraries.co.uk) to help businesses across East Anglia grow and prosper. From start-ups to scale ups, we’re looking to bring together experienced business support organisations and inspiring experts to drive success in your business. Our aim is to provide:
 
 - Accessible, insightful and timely business information
 - A motivating and inspiring environment in which to learn and share knowledge
