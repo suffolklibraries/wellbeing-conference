@@ -1,0 +1,49 @@
+{% assign advisors = site.advisors | sort: "order" %}
+
+{% for advisor in advisors %}
+
+  <article class="pt3 pb4">
+
+    <header>
+
+      <div class="flex flex-row-reverse items-center">
+
+        <div class="{% if advisor.img %}w-80 pl2{% else %}w-100{% endif %}">
+
+          <h3 class="lh-title f4 mt0 mb1">{{ advisor.name }}</h3>
+
+          <p class="f6 mid-gray ma0">{{ speaker.job-title }} <br>{{ advisor.employer }}</p>
+
+          {% if advisor.talk %}<p class="f6 mid-gray ma0 i">{{ advisor.talk }}</p>{% endif %}
+
+        </div>
+
+        {% if speaker.img %}
+
+        <div class="w-20 pr2 pr3-ns">
+
+          <img class="db ma0 pa0 br-100" src="/assets/{{ advisor.img }}" alt="{{ advisor.name }}">
+
+        </div>
+
+        {% endif %}
+
+      </div>
+
+    </header>
+
+    {% unless advisor.content.size == 1 %}
+
+    <button class="__toggler pointer pa0 bn mt2 bg-white dark-blue __underline">More about {{ advisor.name }}</button>
+
+    <div class="dn">
+
+      {{ advisor.content }}
+
+    </div>
+
+    {% endunless %}
+
+  </article>
+
+{% endfor %}

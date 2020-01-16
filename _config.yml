@@ -69,6 +69,7 @@ collections:
     - speakers
     - sessions
     - tickets
+    - advisors
 
 
 # Exclude from processing.
