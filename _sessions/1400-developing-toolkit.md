@@ -1,6 +1,6 @@
 ---
 name: "Developing a mental health toolkit"
-speaker: TBC
+speaker: "Robert Manson, Head of Occupational Heath and Wellbeing, RWE"
 start-time: "14:00"
 ---
 

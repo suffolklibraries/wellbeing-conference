@@ -1,7 +1,7 @@
 ---
 name: "Setting up a new mental health team"
 summary: "Building an employee-led workplace mental health &amp; wellbeing network from scratch"
-speaker: TBC
+speaker: Charles Alberts, Head of Health Management, Aon
 start-time: "14:40"
 ---
 

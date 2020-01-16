@@ -9,6 +9,7 @@ Mental health programmes are changing the role, influence and structure of tradi
 
 This panel will look at a company’s employee-related data to solve specific business problems in areas such as talent management, sales productivity, fraud and customer satisfaction. You will walk away with dozens of ideas of how to make better business decisions:
 
-- Is my organization structured to deliver on new human capital challenges: What needs to change?
+- Is my organisation structured to deliver on new human capital challenges: What needs to change?
 - Visualise the perfect organisation with the right structure, roles and capabilities to successfully deliver your business strategy
 - How to avoid being ‘stuck in neutral’: Making progress which is vital to the growth of business
+- Build an enhanced decision-making analytics organisation to deliver and report where better information is needed
