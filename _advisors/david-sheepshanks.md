@@ -1,5 +1,5 @@
 ---
-name: David Sheepshanks CBEDL
+name: David Sheepshanks CBE DL
 job-title: Business and Life Coach
 employer: Vistage Group
 order: 1
