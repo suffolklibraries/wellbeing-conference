@@ -1,8 +1,8 @@
 ---
 name: "East Anglia focus panel"
-summary: "Mental health matters across the locality – Strategies for positive mental health throughout our region."
-speaker: TBC
-start-time: "12:10"
+summary: "Mental health matters across the locality – Strategies for positive mental health throughout our region"
+speaker: "David Sheepshanks CBE, Suffolk & London, Chair, Vistage (moderator) <br>Sadie Lofthouse, Director of Culture & Performance, Adnams"
+start-time: "15:45"
 ---
 
 Given diverse working environments, industries and types of organisation there is no one-size fits all mental health policy. There are, however, some key sectors which need special focus and support in East Anglia, from rural farming workers to industrial and transportation.

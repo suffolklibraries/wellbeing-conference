@@ -1,8 +1,8 @@
 ---
 name: "Mental health law clinic"
-summary: "Discover the key dos and don’ts: Mental Health Act, Equality Act and tribunals – legal update."
+summary: "Discover the key dos and don’ts: Mental Health Act, Equality Act and tribunals – legal update"
 speaker: TBC
-start-time: "11:40"
+start-time: "10:10"
 ---
 
 A mental health condition is considered a disability if it has a long-term effect on your normal day-to-day activity under the Equality Act 2010.

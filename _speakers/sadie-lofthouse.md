@@ -4,6 +4,7 @@ job-title: Director of Culture and Performance
 employer: Adnams
 img: sadie-lofthouse.jpg
 order: 4
+talk: "Challenging your organisation: Making mental health a priority for all <br>East Anglia focus panel: Mental health matters across the locality – Strategies for positive mental health throughout our region"
 ---
 
 Sadie lives and works on the Suffolk coast and is Director of Culture and Performance at Adnams PLC. Adnams have been brewing in Southwold since 1872 and now employ around 600 people in brewing, distilling, retail and hospitality.

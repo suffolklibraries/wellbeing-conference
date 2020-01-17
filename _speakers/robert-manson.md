@@ -4,5 +4,5 @@ job-title: Head of Occupational Health and Wellbeing
 employer: RWE
 order: 7
 img: robert-manson.jpeg
-talk: "Challenging the culture of the modern organisation: Making mental health a priority for all <br>Developing a mental health toolkit"
+talk: "Development of a mental health organisation model: Managing change and the journey ahead <br>Changing your organisation: Making mental health a priority for all"
 ---

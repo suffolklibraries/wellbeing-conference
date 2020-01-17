@@ -1,6 +1,6 @@
 ---
 name: "Keynote"
-summary: "Proactive mental health and wellbeing trends: Making better workforce decisions &amp; interventions – where to next? 2020 &amp; beyond."
+summary: "Proactive mental health and wellbeing trends: Making better workforce decisions and interventions – where to next in 2020?"
 speaker: Lyssa Barber, Head of Internal Communications and Engagement, UBS
 start-time: "09:10"
 ---

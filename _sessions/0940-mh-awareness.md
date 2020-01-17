@@ -1,6 +1,6 @@
 ---
 name: "Mental health awareness session"
-summary: "Are you missing the signs of mental health issues in your workforce? Complexities, behaviours and how they present workplace problems."
+summary: "Are you missing the signs of mental health issues in your workforce? Complexities, behaviours and how they present workplace problems"
 speaker: "Dr Beverley Flint, clinical psychologist, C&amp;I Wellbeing and Camden &amp; Islington NHS Foundation Trust <br>Dr Lisa Cohen, clinical psychologist, C&amp;I Wellbeing"
 start-time: "09:40"
 ---
