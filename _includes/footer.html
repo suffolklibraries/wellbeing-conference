@@ -15,7 +15,7 @@
     {% if page.jquery %}<script src="/js/jquery-3.4.1.min.js"></script>{% endif %}
     {% if page.toggle %}
     <script>
-      $('.__toggler').click(function() { $(this).next().toggle();});
+      $('.__toggler').click(function() { $(this).next().toggleClass( "clip" );});
     </script>
     {% endif %}
 
