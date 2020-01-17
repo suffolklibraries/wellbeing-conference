@@ -70,6 +70,7 @@ collections:
     - sessions
     - tickets
     - advisors
+    - partners
 
 
 # Exclude from processing.

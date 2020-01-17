@@ -1,0 +1,43 @@
+{% assign partners = site.partners | sort: "order" %}
+
+{% for partner in partners %}
+
+  <article class="pt3 pb4">
+
+    <header>
+
+      <div class="flex flex-row-reverse items-center">
+
+        <div class="{% if partner.img %}w-80 pl2{% else %}w-100{% endif %}">
+
+          <h3 class="lh-title f4 mt0 mb1">{{ partner.name }}</h3>
+
+        </div>
+
+        {% if partner.img %}
+
+        <div class="w-20 pr2 pr3-ns">
+
+          <img class="db ma0 pa0 br-100" src="/assets/{{ partner.img }}" alt="{{ partner.name }}">
+
+        </div>
+
+        {% endif %}
+
+      </div>
+
+    </header>
+
+    {% unless partner.content.size == 1 %}
+
+    <div class="">
+
+      {{ partner.content }}
+
+    </div>
+
+    {% endunless %}
+
+  </article>
+
+{% endfor %}
