@@ -1,6 +1,6 @@
 {% assign tickets = site.tickets %}
 
-<div class="flex-l justify-between-l flex-wrap-l mv3">
+<div class="flex-l flex-wrap-l mv3">
 
 {% for ticket in tickets %}
 
@@ -22,15 +22,19 @@
 
   {% endif %}
 
-  <div class="w-30-l ba b--moon-gray br2 relative pb5 mb4">
+  <div class="w-50-l ph2-l">
 
-    <h2 class="f4 ma0 pa3 lh-title{% if is_active_ticket == false %} gray{% endif %}">{{ ticket.name }}</h2>
+    <div class="ba b--moon-gray br2 relative pb5 mb4">
 
-    <div class="{% if is_active_ticket == true %}bg-gold black {% elsif is_active_ticket == false %}bg-light-gray gray {% endif %}pa3">
+      <h2 class="f4 ma0 pa3 lh-title{% if is_active_ticket == false %} gray{% endif %}">{{ ticket.name }}</h2>
 
-      <p class="ma0 f6">{{ ticket.text }}</p>
+      <div class="{% if is_active_ticket == true %}bg-gold black {% elsif is_active_ticket == false %}bg-light-gray gray {% endif %}pa3">
 
-      <p class="b mt2 pt2 bt b--white">{{ ticket.cost }}</p>
+        <p class="ma0 f6">{{ ticket.text }}</p>
+
+        <p class="b mt2 pt2 bt b--white">{{ ticket.cost }}</p>
+
+      </div>
 
     </div>
 

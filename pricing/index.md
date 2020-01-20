@@ -8,11 +8,11 @@ display-title: Delegate fees
 
 {% include list-tickets.html %}
 
-<div class="__prose">
+<div class="__prose measure-wide">
 
-  <h2>Charity, not-for-profit or want to book 3 or more tickets to benefit from a group booking discount?</h2>
+  <h2>Charities, not-for-profits and conference partners</h2>
 
-  <p class="measure-wide">Call or email our helpline:</p>
+  <p>We offer discounted rates. To collect your promo code to apply at checkout, call or email our helpline:</p>
 
   <ul>
 
