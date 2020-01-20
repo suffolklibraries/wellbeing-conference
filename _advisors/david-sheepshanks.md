@@ -4,6 +4,7 @@ job-title: Business and Life Coach
 employer: Vistage Group
 order: 1
 img: david-sheepshanks.jpg
+talk: Mental Health Matters Across the Locality – Strategies for Positive Mental Health Throughout The Region (moderator)
 ---
 
 Although best known for his career in football and charity, David’s background was in the food industry, successfully starting, building and selling two profitable companies. Experienced as both Chair and NED, David is collegiate yet challenging. He assembles teams with complementary skills and creates alignment and ownership through effective delegation in goal-setting and driving growth. He is recognised as a good communicator, networker and convener.

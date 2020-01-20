@@ -3,6 +3,7 @@ name: Doug Field
 job-title: Chair of New Anglia Local Enterprise Partnership and Joint CEO of the East of England Co-op
 order: 2
 img: doug-field.jpg
+talk: Mental Health Matters Across the Locality – Strategies for Positive Mental Health Throughout The Region
 ---
 
 Owned by its members, over 260,000 of them, the East of England Co-operative Society is the largest independent retail business in East Anglia with more than 200 trading outlets located in over 70 towns and villages throughout Norfolk, Suffolk, Essex and Cambridgeshire. As Joint CEO of the East of England Co-op, Doug protects and nurtures the members' legacy for this generation and the next.
