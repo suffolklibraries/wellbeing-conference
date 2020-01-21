@@ -2,7 +2,7 @@
 layout: default
 title: About
 display-title: "About this conference"
-nav-order: 9
+nav-order: 10
 link-colour: true
 underline: true
 prose: true
