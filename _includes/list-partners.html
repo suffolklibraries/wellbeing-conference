@@ -6,19 +6,19 @@
 
       <h3 class="lh-title f4 mt0 mb2">{{ partner.name }}</h3>
 
-      <div class="flex-ns items-center-ns">
+      <div class="flex-l items-center-l">
 
         {% if partner.img %}
 
-        <div class="w-25-ns w-third-l pr3-ns">
+        <div class="w-25-l w-third-l pr3-l mv3">
 
-          <a class="db ma0 pa0 mb1" href="{{ partner.website }}"><img class="db ma0 pa0 center" src="/assets/{{ partner.img }}" alt="{{ partner.name }}"></a>
+          <a class="db ma0 pa0 mb1" href="{{ partner.website }}"><img class="db ma0 pa0 center mw4" src="/assets/{{ partner.img }}" alt="{{ partner.name }}"></a>
 
         </div>
 
         {% endif %}
 
-        <div class="{% if partner.img %}w-75-ns w-two-thirds-l pl3-ns{% else %}w-100{% endif %}">
+        <div class="{% if partner.img %}w-75-l w-two-thirds-l pl3-ns{% else %}w-100{% endif %}">
 
           {% unless partner.content.size == 1 %}
 
