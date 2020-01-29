@@ -1,6 +1,6 @@
 ---
-name: "Business partner: MENTA"
-order: 3
+name: "Event partner: MENTA"
+order: 2
 img: menta-logo.jpg
 website: https://www.menta.org.uk/
 ---

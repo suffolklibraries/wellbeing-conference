@@ -1,6 +1,6 @@
 ---
 name: "Refreshment partner: Coffeelink"
-order: 2
+order: 1
 img: cl-logo.svg
 website: https://coffeelink.com/
 ---
