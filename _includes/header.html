@@ -74,11 +74,11 @@
 
             {% if item.nav-order %}
 
-            {% unless item.hide %}
+            {% if item.show %}
 
             <li class="w-third dib-ns w-auto-l mr4-l pv1 pv0-l"><a href="{{ item.url }}" class="no-underline{% if page.title == item.title %} black bb{% else %} blue hover-dark-blue{% endif %}">{{ item.title }}</a></li>
 
-            {% endunless %}
+            {% endif %}
 
             {% endif %}
 

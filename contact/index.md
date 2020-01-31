@@ -6,6 +6,7 @@ nav-order: 10
 link-colour: true
 underline: true
 prose: true
+show: true
 ---
 
 - Call: **01473 351249** (service provided by Suffolk Libraries customer service team)

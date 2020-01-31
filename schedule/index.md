@@ -4,6 +4,7 @@ title: Schedule
 nav-order: 3
 jquery: true
 toggle: true
+show: true
 ---
 
 {% include list-sessions.html %}

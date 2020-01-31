@@ -6,6 +6,7 @@ nav-order: 10
 link-colour: true
 underline: true
 prose: true
+show: true
 ---
 
 ## Why a positive approach to mental health culture change?
