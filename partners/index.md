@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Partners
-nav-order: 8
+nav-order: 10
 full-width: true
 ---
 

@@ -71,6 +71,7 @@ collections:
     - tickets
     - advisors
     - partners
+    - exhibitors
 
 
 # Exclude from processing.

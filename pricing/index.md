@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pricing
-nav-order: 4
+nav-order: 5
 full-width: true
 display-title: Delegate fees
 show: true
