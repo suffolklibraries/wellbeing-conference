@@ -8,6 +8,7 @@ is_home: true
 prose: true
 links: true
 underlines: true
+show: true
 ---
 
 A one day summit in Ipswich that will:

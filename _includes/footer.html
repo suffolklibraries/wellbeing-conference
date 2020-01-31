@@ -1,14 +1,54 @@
-    <footer class="ph2 ph4-ns pv2 bg-white bt b--light-gray __link __underline">
+    <footer>
 
-      <p class="f6 ma0">Hive is a new network designed to help businesses across East Anglia grow and prosper.</p>
+      <div class="ph2 ph4-ns pv3 bg-white bt b--light-gray __underline">
 
-      <ul class="mh0 mv3 pa0 list">
+      </div>
 
-        <li class="dib mr2 mr3-ns"><a href="https://hivesuffolk.co.uk"><img class="dib mv2 mw4 v-mid" alt="Hive logo" src="/assets/logo.png"></a></li>
-        <li class="dib mr2 mr3-ns"><a href="https://www.suffolkmind.org.uk/"><img class="dib mv2 mw4 v-mid" alt="Suffolk Mind logo" src="/assets/sm-logo-small.png"></a></li>
-        <li class="dib"><a href="https://www.suffolklibraries.co.uk"><img class="dib mv2 mw4 v-mid" alt="Suffolk Libraries logo" src="/assets/sl-logo.jpg"></a></li>
+      <div class="ph2 ph4-ns pv3 bg-black near-white bt b--light-gray __underline">
 
-      </ul>
+        <div class="__wrapper center">
+
+          <div class="w-two-thirds-l">
+
+            <ul class="ma0 pa0 list flex-ns flex-wrap-ns">
+
+              {% assign items = site.pages | sort: "nav-order" %}
+
+              {% for item in items %}
+
+                {% if item.nav-order %}
+
+                {% unless item.hide %}
+
+                <li class="w-third-ns ph1-ns f6 f5-ns"><a href="{{ item.url }}" class="dib pv1 no-underline light-blue hover-lightest-blue">{{ item.title }}</a></li>
+
+                {% endunless %}
+
+                {% endif %}
+
+              {% endfor %}
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="ph2 ph4-ns pv2 bg-white bt b--light-gray __link __underline">
+
+        <p class="f6 ma0">Hive is a new network designed to help businesses across East Anglia grow and prosper.</p>
+
+        <ul class="mh0 mv3 pa0 list">
+
+          <li class="dib mr2 mr3-ns"><a href="https://hivesuffolk.co.uk"><img class="dib mv2 mw4 v-mid" alt="Hive logo" src="/assets/logo.png"></a></li>
+          <li class="dib mr2 mr3-ns"><a href="https://www.suffolkmind.org.uk/"><img class="dib mv2 mw4 v-mid" alt="Suffolk Mind logo" src="/assets/sm-logo-small.png"></a></li>
+          <li class="dib"><a href="https://www.suffolklibraries.co.uk"><img class="dib mv2 mw4 v-mid" alt="Suffolk Libraries logo" src="/assets/sl-logo.jpg"></a></li>
+
+        </ul>
+
+      </div>
 
     </footer>
 
