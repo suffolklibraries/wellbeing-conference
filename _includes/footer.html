@@ -1,8 +1,38 @@
     <footer>
 
-      <div class="ph2 ph4-ns pv3 bg-white bt b--light-gray __underline">
+      {% if page.is_home %}
 
-      </div>
+        <div class="ph2 ph4-ns pv3 bg-blue white bt b--light-gray __underline">
+
+          <div class="__wrapper center">
+
+            <h2 class="f4 lh-title tc">Speakers</h2>
+
+            {% assign speakers = site.speakers | where: "featured", "true" %}
+
+            <div class="flex-ns flex-wrap-ns">
+
+            {% for speaker in speakers %}
+
+              <div class="w-third-ns ph2-ns mv2">
+
+                <img src="/assets/{{ speaker.img }}" alt="{{ speaker.name }}" class="shadow-4 db center br-100">
+
+                <p class="f6 tc">{{ speaker.name }} <br>{{ speaker.employer }}</p>
+
+              </div>
+
+            {% endfor %}
+
+            </div>
+
+            <p class="tc"><a class="ba b--white pa2 br2 b bg-light-gray hover-bg-near-white dark-blue no-underline" href="/speakers/">Full speaker list &rarr;</a></p>
+
+          </div>
+
+        </div>
+
+      {% endif %}
 
       <div class="ph2 ph4-ns pv3 bg-black near-white bt b--light-gray __underline">
 
