@@ -21,6 +21,6 @@ University of Suffolk, Waterfront Building, 19 Neptune Quay, IP4 1QJ
 
 <img src="/assets/uos-campus.jpg" alt="Map of the UoS Campus" class="db mv3 center">
 
-<p class="measure">There is public parking available at the Duke Street carpark, IP3 0AQ. The carpark is a minute walk from the vanue.</p>
+<p class="measure">There is public parking available at the Duke Street carpark, IP3 0AQ. The carpark is a minute walk from the venue.</p>
 
 {% include map.html %}
