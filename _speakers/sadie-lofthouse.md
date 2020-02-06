@@ -3,7 +3,7 @@ name: Sadie Lofthouse
 job-title: Director of Culture and Performance
 employer: Adnams
 img: sadie-lofthouse.jpg
-order: 4
+order: 8
 talk: "Challenging your organisation: Making mental health a priority for all <br>East Anglia focus panel: Mental health matters across the locality – Strategies for positive mental health throughout our region"
 featured: true
 ---
