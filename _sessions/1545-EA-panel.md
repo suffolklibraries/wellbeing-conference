@@ -1,7 +1,7 @@
 ---
 name: "East Anglia focus panel"
 summary: "Mental health matters across the locality – Strategies for positive mental health throughout the region"
-speaker: "David Sheepshanks CBE, Suffolk & London, Chair, Vistage (moderator) <br>Doug Field, Chair of New Anglia Local Enterprise and Joint CEO of East of England Co-op <br>Sadie Lofthouse, Director of Culture & Performance, Adnams <br>Maria Shinn, Area Director, Acas East of England"
+speaker: "David Sheepshanks CBE DL, Suffolk & London, Chair, Vistage and Chairman of FA Technical Advisory Board (moderator) <br>Doug Field, Chair of New Anglia Local Enterprise and Joint CEO of East of England Co-op <br>Sadie Lofthouse, Director of Culture & Performance, Adnams <br>Maria Shinn, Area Director, Acas East of England"
 start-time: "15:45"
 ---
 
