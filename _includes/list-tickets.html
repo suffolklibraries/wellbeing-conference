@@ -1,51 +1,42 @@
-{% assign tickets = site.tickets %}
-
 <div class="flex-l flex-wrap-l mv3">
-
-{% for ticket in tickets %}
-
-  {% capture now-unix-seconds %}{{'now' | date: '%s' }}{% endcapture %}
-
-  {% capture begins-seconds %}{{ ticket.begins | date: '%s' }}{% endcapture %}
-
-  {% capture begins %}{{ begins-seconds | divided_by: 86400}}{% endcapture %}
-
-  {% capture now-unix %}{{ now-unix-seconds | divided_by: 86400}}{% endcapture %}
-
-  {% if now-unix > begins %}
-
-    {% assign is_active_ticket = true %}
-
-  {% else %}
-
-    {% assign is_active_ticket = false %}
-
-  {% endif %}
 
   <div class="w-50-l ph2-l">
 
     <div class="ba b--moon-gray br2 relative pb5 mb4">
 
-      <h2 class="f4 ma0 pa3 lh-title{% if is_active_ticket == false %} gray{% endif %}">{{ ticket.name }}</h2>
+      <h2 class="f4 ma0 pa3 lh-title">General</h2>
 
-      <div class="{% if is_active_ticket == true %}bg-gold black {% elsif is_active_ticket == false %}bg-light-gray gray {% endif %}pa3">
+      <div class="bg-gold black pa3">
 
-        <p class="ma0 f6">{{ ticket.text }}</p>
+        <p class="ma0 f6">Discounts for charities, partners, not-for-profits and bulk bookings.</p>
 
-        <p class="b mt2 pt2 bt b--white">{{ ticket.cost }}</p>
+        <p class="b mt2 pt2 bt b--white">&pound;249 + VAT</p>
 
       </div>
 
-      {% if is_active_ticket == true %}
-
       <div class="mv3 pa3"><a class="b pointer pa2 bg-blue hover-bg-dark-blue white br2 ba b--silver shadow-4 no-underline" href="https://www.eventbrite.com/e/proactive-workplace-mental-health-summit-2020-tickets-90507218527">Buy tickets &rarr;</a><br> <span class="dib f6 lh-title pt3">(will open on the Eventbrite website)</span></div>
-
-      {% endif %}
 
     </div>
 
   </div>
 
-{% endfor %}
+  <div class="w-50-l ph2-l">
+
+    <div class="ph3">
+
+      <h2 class="f4 mb0 lh-title">Charities, not-for-profits and conference partners</h2>
+
+      <p>We offer discounted rates on our general admission ticket. Call or email our helpline to get a discount code</p>
+
+      <ul>
+
+        <li>email: <strong>help@hivesuffolk.co.uk</strong></li>
+        <li>tel: <strong>01473 351249</strong> (service provided by Suffolk Libraries customer service team)</li>
+
+      </ul>
+
+    </div>
+
+  </div>
 
 </div>

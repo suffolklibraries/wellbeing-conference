@@ -2,7 +2,7 @@
 layout: default
 title: Contact
 display-title: "Contact"
-nav-order: 6
+nav-order: 12
 link-colour: true
 underline: true
 prose: true

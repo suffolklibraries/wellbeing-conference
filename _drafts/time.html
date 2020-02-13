@@ -1,0 +1,19 @@
+{% for ticket in tickets %}
+
+  {% capture now-unix-seconds %}{{'now' | date: '%s' }}{% endcapture %}
+
+  {% capture begins-seconds %}{{ ticket.begins | date: '%s' }}{% endcapture %}
+
+  {% capture begins %}{{ begins-seconds | divided_by: 86400}}{% endcapture %}
+
+  {% capture now-unix %}{{ now-unix-seconds | divided_by: 86400}}{% endcapture %}
+
+  {% if now-unix > begins %}
+
+    {% assign is_active_ticket = true %}
+
+  {% else %}
+
+    {% assign is_active_ticket = false %}
+
+  {% endif %}

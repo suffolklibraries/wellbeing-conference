@@ -3,6 +3,7 @@ layout: default
 title: Partners
 nav-order: 10
 full-width: true
+show: true
 ---
 
 <article class="pa3 bg-light-gray shadow-4 ba b--moon-gray mv4">
