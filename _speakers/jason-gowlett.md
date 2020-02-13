@@ -2,7 +2,7 @@
 name: Jason Gowlett
 job-title: Director of HR Operations
 employer: Direct Line Group
-order: 2
+order: 5
 img: jason-gowlett.jpg
 talk: Mental health policy transformation panel
 ---
