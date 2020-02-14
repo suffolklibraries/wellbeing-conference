@@ -13,7 +13,7 @@ show: true
 
 [Research from Deloitte](https://www2.deloitte.com/uk/en/pages/public-sector/articles/mental-health-employers-review.html) shows that workplaces taking a proactive, positive approach to mental health culture change can expect a return on investment of at least 8:1. A positive working environment also supports wider economic resilience and leads to thriving communities. So organisations with a strong mental health framework in place are finding the rewards are not just social – they can affect the bottomline.
 
-Research commissioned by Suffolk Libraries highlights the growing wellbeing challenges facing the county, and issues such as loneliness and social isolation can affect employees at work as well as outside of it. For this reason, HIVE has teamed up with workplace wellbeing specialists Suffolk Mind to provide practical and transferable solutions to businesses across East Anglia so you can meet these challenges.
+[Research commissioned by Suffolk Libraries](https://www.suffolklibraries.co.uk/assets/pdf/suffolk-libraries-a-predictive-impact-analysis.pdf) (PDF) highlights the growing wellbeing challenges facing the county, and issues such as loneliness and social isolation can affect employees at work as well as outside of it. For this reason, HIVE has arranged the Proactive Workplace Mental Health Summit to provide practical and transferable solutions to businesses across East Anglia, so you can meet these challenges.
 
 It can be a difficult road, but by working on staff education, awareness and intervention, the benefits are often remarkable. The conference will explore the fantastic work taking place in mental health and wellbeing across our region, and how you can apply these experiences to your business.
 
