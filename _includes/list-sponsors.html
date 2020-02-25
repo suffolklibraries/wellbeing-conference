@@ -1,0 +1,40 @@
+{% assign sponsors = site.sponsors | sort: "order" %}
+
+{% for sponsor in sponsors %}
+
+  <article class="pt3 pb4">
+
+      <h3 class="lh-title f4 mt0 mb2">{{ sponsor.name }}</h3>
+
+      <div class="flex-l items-center-l">
+
+        {% if sponsor.img %}
+
+        <div class="w-25-l w-third-l pr3-l mv3">
+
+          <a class="db ma0 pa0 mb1" href="{{ sponsor.website }}"><img class="db ma0 pa0 center mw4" src="/assets/{{ sponsor.img }}" alt="{{ sponsor.name }}"></a>
+
+        </div>
+
+        {% endif %}
+
+        <div class="{% if sponsor.img %}w-75-l w-two-thirds-l pl3-ns{% else %}w-100{% endif %}">
+
+          {% unless sponsor.content.size == 1 %}
+
+          <div class="">
+
+            {{ sponsor.content }}
+
+          </div>
+
+          {% endunless %}
+
+        </div>
+
+      </div>
+
+
+  </article>
+
+{% endfor %}
