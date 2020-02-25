@@ -1,7 +1,7 @@
 ---
 name: David Sheepshanks CBE DL, Suffolk & London, Chair, Vistage and Chairman of FA Technical Advisory Board
 job-title: Business and Life Coach
-order: 12
+order: 15
 img: david-sheepshanks.jpg
 talk: Mental Health Matters Across the Locality – Strategies for Positive Mental Health Throughout The Region (moderator)
 ---

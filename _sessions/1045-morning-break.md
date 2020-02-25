@@ -1,4 +1,4 @@
 ---
 name: Morning break
-start-time: "10:40"
+start-time: "10:45"
 ---

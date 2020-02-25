@@ -4,7 +4,7 @@ job-title: Head of Health Management
 employer: Aon
 order: 1
 img: charles-alberts.jpeg
-talk: "Setting up a new mental health team: Building an employee-led workplace mental health &amp; wellbeing network <br>Challenging your organisation: Making mental health a priority for all"
+talk: "Setting up a new mental health team: Building an employee-led workplace mental health &amp; wellbeing network <br>Challenging your organisation: Making mental health a priority for all <br>Brainstorm and share stories and ideas"
 featured: true
 ---
 
