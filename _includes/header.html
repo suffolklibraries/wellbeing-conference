@@ -36,9 +36,7 @@
       <link href="/css/style.css" rel="stylesheet">
       {% endif %}
 
-      {% if page.is_home %}
-      <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Event", "name": "Proactive Workplace Mental Health Summit 2020", "url": "https://hivesuffolk.co.uk", "startDate": "2020-03-30T08:15", "endDate": "2020-03-30T17:30", "location":{"@type": "Place", "name": "University of Suffolk, Waterfront Building", "address":{"@type": "PostalAddress", "streetAddress": "University of Suffolk, Waterfront Building, 19 Neptune Quay", "addressLocality": "Ipswich", "postalCode": "IP4 1QJ", "addressRegion": "Suffolk", "addressCountry": "UK"}}, "image": [ "https://hivesuffolk.co.uk/assets/graphic-1.png"], "contributor": [ "Suffolk Mind", "Suffolk Libraries"], "description": "A practical one day conference exploring the effects of workplace wellbeing on staff and the bottomline. Get info on setting up a mental health and wellbeing framework in your workplace.", "offers":{"@type": "Offer", "url": "https://hivesuffolk.co.uk/pricing/", "price": "199", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "validFrom": "2020-01-01T12:00"}}</script>
-      {% endif %}
+      <!-- {% if page.is_home %} 🦉 include event-json.html {% endif %} -->
 
     </head>
 
@@ -46,13 +44,25 @@
 
       <p class="clip"><a href="#content">Skip to content</a></p>
 
-      <header class="__sticky __no-print z-1">
+      <header>
+
+        {% unless page.hide-header %}
+
+          <div class="bg-light-yellow black ph2 ph4-ns pv2 pv3-ns bb b--light-gray __no-print">
+
+            <h1 class="f2 lh-title">Important notice: Summit postponed.</h1>
+
+            <p class="f4">Due to the Coronavirus situation we have decided to postpone the summit until September 2020. <br><a href="/postponement/" class="dark-blue __underline b">Refunds and more info &rarr;</a></p>
+
+          </div>
+
+        {% endunless %}
 
         <div class="bg-dark-gray white ph2 ph4-ns pv2 bb b--light-gray flex">
 
           <div class="b ttl small-caps tracked w-50"><a href="/" class="f6 no-underline dib gold hover-white pv2"><img src="/assets/logo.png" class="v-btm" alt="Hive"></a></div>
 
-          <div class="w-50 tr pt2">
+          <div class="dn w-50 tr pt2 __no-print">
 
             <noscript><a href="https://www.eventbrite.com/e/proactive-workplace-mental-health-summit-2020-tickets-90507218527" rel="noopener noreferrer" class="light-gray hover-white">Buy ticket on Eventbrite website</a></noscript>
 
@@ -92,27 +102,29 @@
 
         <article>
 
-          <div class="ph2 ph4-ns pv2 pv3-l flex-l items-center-l bg-blue bb b--light-gray __no-print">
+          {% unless page.hide-header %}
 
-            <!-- <img src="/assets/banner-2.jpg" class="db" alt="Poster: Proactive Workplace Mental Health Summit 2020, University of Suffolk, Waterfront Building, 30 March 2020"> -->
+            <div class="ph2 ph4-ns pv2 pv3-l flex-l items-center-l bg-blue bb b--light-gray __no-print">
 
-            <div class="w-50-l pr2-l">
+              <div class="w-50-l pr2-l">
 
-              <div class="ttu f7"><span class="ph2 pv1 __box-decoration-break-clone bg-black white dib">30 <br>Mar</span></div>
+                <div class="ttu f7"><span class="ph2 pv1 __box-decoration-break-clone bg-black white dib">30 <br>Mar</span></div>
 
-              <div class="b mv3 f2 lh-title"><span class="ph2 pv1 __box-decoration-break-clone bg-black white">Proactive Workplace Mental Health Summit 2020</span></div>
+                <div class="b mv3 f2 lh-title"><span class="ph2 pv1 __box-decoration-break-clone bg-black white">Proactive Workplace Mental Health Summit 2020</span></div>
 
-              <p class="mb0-l"><span class="ph2 pv1 __box-decoration-break-clone bg-black white">University of Suffolk, Waterfront Building, 19 Neptune Quay, IP4 1QJ</span></p>
+                <p class="mb0-l"><span class="ph2 pv1 __box-decoration-break-clone bg-black white">University of Suffolk, Waterfront Building, 19 Neptune Quay, IP4 1QJ</span></p>
+
+              </div>
+
+              <div class="w-50-l pl2-l __no-print">
+
+                <img class="db" alt="Resilience, insight, best practice, wellbeing" src="/assets/graphic-1.png">
+
+              </div>
 
             </div>
 
-            <div class="w-50-l pl2-l __no-print">
-
-              <img class="db" alt="Resilience, insight, best practice, wellbeing" src="/assets/graphic-1.png">
-
-            </div>
-
-          </div>
+          {% endunless %}
 
           <div class="pv3 pv4-ns ph2 ph4-ns{% if page.link-colour %} __link{% endif %}{% if page.underline %} __underline{%endif %}">
 
