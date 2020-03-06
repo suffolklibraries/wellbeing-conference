@@ -11,9 +11,9 @@ We have taken the difficult decision to **postpone Proactive Workplace Mental He
 
 The summit was due to have taken place on Monday 30 March at the University of Suffolk.
 
-The Coronavirus outbreak has resulted in speakers and delegates cancelling attendance. As the situation is developing and remains unclear, we have decided to postpone the summit until September 2020.
+The Coronavirus outbreak has resulted in speakers and delegates cancelling attendance. As the situation is developing and remains unclear, we have decided to postpone the summit until **24 September 2020**.
 
-When we have a new date for the summit we’ll publish it here.
+**We’ll also be at a new venue: [The Atrium at Wherstead Park](http://whersteadpark.co.uk/the-atrium-for-events/).**
 
 We apologise for any inconvenience and disappointment this causes.
 
