@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-display-title: Proactive Workplace Mental Health Summit 2020
+display-title: Proactive Workplace Mental Health Summit 2020–2021
 nav-order: 1
 is_home: true
 prose: true
@@ -10,12 +10,13 @@ underlines: true
 show: true
 ---
 
-A one day summit in Ipswich that will:
+The _Proactive Workplace Mental Health Summit_ was originally a one day conference due to take place in March 2020.
 
-- Help you understand the costs of poor mental health and stress on employees and your bottomline
-- Explore the legal framework around the Equality Act, Disability Discrimination Act and Mental Health Act review
-- Equip you with the tools to put a mental health and wellbeing framework in place, and get staff buy-in
-- Provide a chance to network with like-minded professionals
-- Provide key insights that can be applied to any scale business
+The summit has been cancelled until March 2021 due to the coronavirus pandemic.
 
-**[Find out more &rarr;](/about/)**
+However, we will be running a series of free, online seminars with experts in the health and wellbeing in the workplace field.
+
+ - Sign up for the newsletter to keep up to date on seminars and speakers
+ - [Download our free <cite>Wellebing at Work</cite> white paper](/assets/white-paper.pdf)
+
+ If you have any questions contact **help@hivesuffolk.co.uk**
