@@ -6,7 +6,6 @@ nav-order: 12
 link-colour: true
 underline: true
 prose: true
-show: true
 full-width: true
 ---
 
